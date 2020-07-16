@@ -7,9 +7,10 @@ BEGIN TRY
         
 		UPDATE accounts SET current_balance = current_balance + 100 WHERE account_id = 5;
 		INSERT INTO transactions VALUES (5, 100, GETDATE());
-	COMMIT TRAN;
+	COMMIT TRAN;    
 END TRY
 
 BEGIN CATCH  
+	SELECT 'Rolling back the transaction';
 	ROLLBACK TRAN;
 END CATCH
