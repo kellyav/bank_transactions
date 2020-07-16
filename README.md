@@ -14,12 +14,15 @@ Give $100 to accounts less than $5,000, if there aren't more than 200 accounts m
 
 - **raffle_win.sql**
 
-The owner of account 10 has won a raffle and will be awarded $200. 
+The owner of account 10 has won a raffle and will be awarded $200.
 
 - **percent_donation.sql**
 
 Customers with over $5,000,000 decide to donate 0.01% of their current_balance.
 
+- **add_customer_info.sql**
+
+Insert the data of two new customers into the customer table, with exception handling.
 
 ## Database 
 
