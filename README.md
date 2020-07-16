@@ -4,9 +4,17 @@ Maintenance of business tables in SQL Server, using the Bank database.
 
 ## Scripts
 
-- 
+- **100_transfer.sql**
 
+Transfer $100 from account 1 to account 5
 
+- **distribute_money.sql**
+
+Give $100 to accounts less than $5,000, if there aren't more than 200 accounts matching that constraint. 
+
+- **raffle_win.sql**
+
+The owner of account 10 has won a raffle and will be awarded $200. 
 
 ## Database 
 
