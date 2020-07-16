@@ -16,6 +16,11 @@ Give $100 to accounts less than $5,000, if there aren't more than 200 accounts m
 
 The owner of account 10 has won a raffle and will be awarded $200. 
 
+- **percent_donation.sql**
+
+Customers with over $5,000,000 decide to donate 0.01% of their current_balance.
+
+
 ## Database 
 
 bike_bank_db
