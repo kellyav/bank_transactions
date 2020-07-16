@@ -34,4 +34,4 @@ Others:
 
 - orders
 
-(See my *bike_error_handles* repo for scripts using these last 4 tables)
+(See my [*bike_error_handles*](https://github.com/kellyav/bank_transactions) repo for scripts using these last 4 tables)
