@@ -24,6 +24,10 @@ Customers with over $5,000,000 decide to donate 0.01% of their current_balance.
 
 Insert the data of two new customers into the customer table, with exception handling.
 
+- **count_committed_accounts.sql**
+
+Count how many accounts have more than $50,000, but with an isolation level of READ COMMITTED. 
+
 ## Database 
 
 bike_bank_db
